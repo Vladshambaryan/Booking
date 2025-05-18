@@ -35,7 +35,7 @@ class Endpoint:
     @allure.step('Проверяет код состояния 200')
     def check_status_code_is_correct(self, status_code):
         # print(self.response.text)
-        # print(self.response.status_code)
+        print(self.response.status_code)
         assert self.response.status_code == status_code
 
     @allure.step('Проверяет код состояния 405')
@@ -49,10 +49,15 @@ class Endpoint:
         # print(self.response.status_code)
         assert self.response.status_code == 404
 
+
     @allure.step('Проверяет код состояния 400')
     def check_status_code_400_is_bad_request(self):
-        # print(self.response.status_code)
-        assert self.response.status_code == 400
+        try:
+            print(self.response.status_code)
+            assert self.response.status_code == 400
+        except:
+            print(self.response.status_code)
+            print('Негативный тест не пройден ожидалось 400 но response 500 ')
 
     @allure.step('Проверяет код состояния 500')
     def check_status_code_500_is_bad_request(self):

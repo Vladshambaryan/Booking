@@ -1,6 +1,6 @@
 import pytest
 import allure
-from tests.test_data import (TEST_DATA_CREATE, NEGATIVE_DATA_CREATE, NEGATIVE_DATA_UPDATE, TEST_DATA_UPDATE)
+from endpoints.data import (valid_data_create, valid_data_update)
 
 
 @allure.feature('Get')
@@ -17,6 +17,7 @@ def test_get_one_element(new_element_id, get_request, token):
         get_request.check_bookingdates_is_correct(response['bookingdates'])
         get_request.check_additionalneeds_is_correct(response['additionalneeds'])
         get_request.check_url_is_correct()
+        get_request.check_response_is_list()
     get_request.check_status_code_is_correct(status_code=200)
 
 
@@ -42,7 +43,7 @@ def test_get_all_element(get_request_all, token):
 @allure.feature('Post')
 @pytest.mark.regression
 @allure.title('Создать новый элемент')
-@pytest.mark.parametrize('data', TEST_DATA_CREATE)
+@pytest.mark.parametrize('data', valid_data_create)
 def test_add(post_create, data, token):
     post_create.new_element(data, token)
     post_create.check_firstname_is_correct(data['firstname'])
@@ -58,7 +59,7 @@ def test_add(post_create, data, token):
 @pytest.mark.regression
 @allure.title('Обновить элемент')
 def test_update_element(new_element_id, put_update_element, token):
-    data = TEST_DATA_UPDATE
+    data = valid_data_update
     put_update_element.make_changes_in_element(new_element_id, data, token)
     put_update_element.check_firstname_is_correct(data['firstname'])
     put_update_element.check_lastname_is_correct(data['lastname'])
@@ -73,7 +74,7 @@ def test_update_element(new_element_id, put_update_element, token):
 @pytest.mark.regression
 @allure.title('Частично бновить элемент')
 def test_patch_update_element(new_element_id, patch_update, token):
-    data = TEST_DATA_UPDATE
+    data = valid_data_update
     patch_update.update_test(new_element_id, data, token)
     patch_update.check_firstname_is_correct(data['firstname'])
     patch_update.check_lastname_is_correct(data['lastname'])

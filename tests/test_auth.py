@@ -1,5 +1,5 @@
 import allure
-from tests.test_data import invalid_token
+from endpoints.data import invalid_token
 import pytest
 
 

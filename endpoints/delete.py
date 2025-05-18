@@ -4,16 +4,6 @@ from endpoints.endpoint import Endpoint
 
 
 class DeleteElement(Endpoint):
-    #
-    # @allure.step('Удалить элемент')
-    # def delete_element(self, new_element_id, token):
-    #     url = f"{self.url}/{new_element_id}"
-    #     headers = {
-    #         'Content-Type': 'application/json',
-    #         'Cookie': f'token={token}'
-    #     }
-    #     self.response = requests.delete(url, headers=headers)
-    #     print(self.response)
 
     @allure.step('Удалить элемент')
     def delete_element(self, new_element_id, token):
