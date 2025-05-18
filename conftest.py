@@ -22,7 +22,7 @@ def token(auth):
 
 @pytest.fixture(scope='session')
 def token_neg(auth):
-    return auth.authorization_token_is_not_valid
+    return auth.authorization_token_is_not_valid()
 
 @pytest.fixture()
 def post_create():

@@ -62,8 +62,8 @@ class Endpoint:
 
     @allure.step('Проверяет код состояния 403')
     def check_status_code_403_is_unauthorized(self):
-        # print(self.response.text)
-        # print(self.response.status_code)
+        print(self.response.text)
+        print(self.response.status_code)
         assert self.response.status_code == 403
 
     @allure.step('Проверяет firstname')
