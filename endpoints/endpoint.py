@@ -23,6 +23,7 @@ class Endpoint:
 
     @allure.step('Проверить токен не пуст')
     def check_token_not_empty(self):
+        print(self.response.text)
         assert self.token is not None
 
     @allure.step('Проверить токен просрочен')
@@ -39,8 +40,7 @@ class Endpoint:
 
     @allure.step('Проверяет код состояния 405')
     def check_status_code_405(self):
-        # print(self.response.text)
-        # print(self.response.status_code)
+
         assert self.response.status_code == 405
 
     @allure.step('Проверяет код состояния 404')
