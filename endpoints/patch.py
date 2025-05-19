@@ -5,6 +5,7 @@ import allure
 
 class UpdatePatchElement(Endpoint):
 
+
     @allure.step('Обновить элемент')
     def update_test(self, new_element_id, payload, token):
         url = f"{self.url}/{new_element_id}"

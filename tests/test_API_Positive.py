@@ -91,6 +91,3 @@ def test_patch_update_element(new_element_id, patch_update, token):
 def test_delete_element(new_element_id, delete, token):
     delete.delete_element(new_element_id, token)
     delete.check_status_code_201_200_204()
-
-
-

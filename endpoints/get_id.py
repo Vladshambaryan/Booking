@@ -3,8 +3,8 @@ import requests
 import allure
 
 
-
 class GetElement(Endpoint):
+
 
     @allure.step('Получить элемент по id')
     def get_element_by_id(self, new_element_id, token, headers=None):

@@ -13,7 +13,7 @@ class DeleteElement(Endpoint):
             'Cookie': f'token={token}'
         }
         self.response = requests.delete(url, headers=headers)
-        print(f"Удалён элемент с ID: {new_element_id}")
+
 
     @allure.step('Проверяет код состояния 201, 200, 204')
     def check_status_code_201_200_204(self):

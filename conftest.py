@@ -24,21 +24,21 @@ def token(auth):
 def token_neg(auth):
     return auth.authorization_token_is_not_valid()
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def post_create():
     return Create()
 
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def put_update_element():
     return UpdateElement()
 
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def patch_update():
     return UpdatePatchElement()
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def get_request():
     return GetElement()
 
@@ -48,12 +48,12 @@ def get_request_all():
     return GetAll()
 
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def delete():
     return DeleteElement()
 
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def new_element_id(post_create, delete, token):
     url = f"https://restful-booker.herokuapp.com/booking"
     payload = {
@@ -76,5 +76,3 @@ def new_element_id(post_create, delete, token):
     assert response.status_code == 200, "Создание объекта не удалось"
     object_id = response.json()["bookingid"]
     yield object_id
-
-

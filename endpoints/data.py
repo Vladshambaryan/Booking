@@ -1,7 +1,5 @@
 from faker import Faker
 fake = Faker()
-
-
 invalid_token = 'jyrjybubk'
 another_user_token = '98in89ily'
 

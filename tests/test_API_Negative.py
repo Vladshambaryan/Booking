@@ -3,7 +3,6 @@ import allure
 from endpoints.data import (invalid_data_create, invalid_data_update)
 
 
-
 @allure.feature('Post')
 @pytest.mark.regression
 @allure.title('Создать новый элемент - негативные тесты')
@@ -29,6 +28,3 @@ def test_update_element_unauthorized(new_element_id, put_update_element, token_n
     data = invalid_data_update
     put_update_element.make_changes_in_element(new_element_id, data, token_neg)
     put_update_element.check_status_code_403_is_unauthorized()
-
-
-

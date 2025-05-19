@@ -1,9 +1,9 @@
-
 import allure
 import requests
 
 
 class Endpoint:
+
 
     url = "https://restful-booker.herokuapp.com/booking"
     auth_url = "https://restful-booker.herokuapp.com/auth"
@@ -12,6 +12,8 @@ class Endpoint:
     errors = []
     token = None
     auth = None
+    new_element_id = None
+
 
     def get_headers(self, token=None):
         if token is None:

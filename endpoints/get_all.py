@@ -5,6 +5,7 @@ import allure
 
 class GetAll(Endpoint):
 
+
     @allure.step('Проверяет получить все элемент')
     def get_all_element(self, token, headers=None):
         headers = headers if headers else self.get_headers(token)
