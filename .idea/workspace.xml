@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d38ed7b1-f277-4124-ae53-e59a24de9f6b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vladshambaryan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Vladshambaryan/Booking.git&quot;,
+    &quot;accountId&quot;: &quot;f9158ad5-4944-45d6-8431-c4fa01b73a86&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xGg7JjNvNsqHZ0vAqYbbwN0ejF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_API.test_delete_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API.test_get_one_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Negative.test_add_element_with_negative_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Negative.test_delete_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Negative.test_update_element_unauthorized.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Negative.test_update_element_with_negative_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Positive.test_add.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Positive.test_delete_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Positive.test_get_all_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Positive.test_get_one_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Positive.test_patch_update_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_API_Positive.test_update_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_auth.test_get_token.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/Booking&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\Booking" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\Booking" />
+      <recent name="C:\Users\PC\PycharmProjects\Booking\endpoints" />
+      <recent name="C:\Users\PC\PycharmProjects\Booking\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_API_Positive.test_delete_element">
+    <configuration name="Python tests for test_API_Positive.test_add" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Booking" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_API_Positive.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_API_Positive.test_delete_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Booking" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_API_Positive.test_delete_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_API_Positive.test_get_all_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Booking" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_API_Positive.test_get_all_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_API_Positive.test_patch_update_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Booking" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_API_Positive.test_patch_update_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_API_Positive.test_update_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Booking" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_API_Positive.test_update_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_API_Positive.test_delete_element" />
+        <item itemvalue="Python tests.Python tests for test_API_Positive.test_add" />
+        <item itemvalue="Python tests.Python tests for test_API_Positive.test_patch_update_element" />
+        <item itemvalue="Python tests.Python tests for test_API_Positive.test_update_element" />
+        <item itemvalue="Python tests.Python tests for test_API_Positive.test_get_all_element" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d38ed7b1-f277-4124-ae53-e59a24de9f6b" name="Changes" comment="" />
+      <created>1747569656100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747569656100</updated>
+    </task>
+    <servers />
+  </component>
+</project>
